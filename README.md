@@ -42,17 +42,45 @@ The project is divided into two main parts:
 
 ```bash
 git clone https://github.com/Patel-Niki/github-api-integration-app.git
-cd github-api-integration-app ```
+cd github-api-integration-app 
+```
 
 #### 2. Install dependencies
 
-For the backend (Node.js/Express):
-Navigate to the backend directory and install dependencies.
+- For the backend (Node.js/Express):
+- Navigate to the backend directory and install dependencies.
 
+```bash
 cd server
 npm install
-For the frontend (Vue.js and Vite):
-Navigate to the frontend directory and install dependencies.
+```
+
+- For the frontend (Vue.js and Vite):
+- Navigate to the frontend directory and install dependencies.
+```bash
 
 cd client
 npm install
+```
+
+#### 3. Set up environment variables
+- Create a .env file in the backend folder (server/) and add your GitHub API credentials if necessary.
+- For basic requests, no authentication is needed, but for more advanced requests, you might need a Personal Access Token from GitHub.
+
+#### 4. Run the application
+- Start the backend server:
+
+```bash
+cd server
+npm start
+```
+- This will start the server on port 5001 by default.
+
+- Start the frontend server:
+
+```bash
+cd client
+npm run dev
+```
+- This will start the Vite development server on port 3000.
+- Visit http://localhost:5173 in your browser to access the app.
