@@ -42,7 +42,7 @@ The project is divided into two main parts:
 
 ```bash
 git clone https://github.com/Patel-Niki/github-api-integration-app.git
-cd github-api-integration-app
+cd github-api-integration-app ```
 
 #### 2. Install dependencies
 
