@@ -75,6 +75,7 @@ cd server
 npm start
 ```
 - This will start the server on port 5001 by default.
+- To change the port, modify the server.ts file
 
 - Start the frontend server:
 
@@ -83,4 +84,10 @@ cd client
 npm run dev
 ```
 - This will start the Vite development server on port 3000.
-- Visit http://localhost:5173 in your browser to access the app.
+- To change the port, modify the vite.config.ts file or use the --port flag:
+
+```bash
+vite --port your_desired_port
+```
+
+- Visit http://localhost:3000 in your browser to access the app.
